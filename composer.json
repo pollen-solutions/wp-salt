@@ -1,0 +1,46 @@
+{
+  "name": "pollen-solutions/wp-salt",
+  "description": "Generateur de clé de Hashage Wordpress.",
+  "homepage": "https://www.presstify.com/pollen-solutions/wp-salt/",
+  "keywords": [
+    "pollen-solutions",
+    "wordpress",
+    "wp-salt"
+  ],
+  "time": "2021-08-10",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy@presstify.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "laminas/laminas-math": "^3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pollen\\WpSalt\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pollen\\WpSalt\\Test\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "bin": [
+    "bin/wp-salt"
+  ]
+}
