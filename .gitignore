@@ -1,0 +1,9 @@
+.DS_Store
+/.idea
+/.env*
+!/.env.example
+/composer.lock
+/package-lock.json
+/yarn.lock
+/node_modules/
+/vendor/
