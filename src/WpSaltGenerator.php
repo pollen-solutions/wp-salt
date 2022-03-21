@@ -12,7 +12,7 @@ class WpSaltGenerator implements WpSaltGeneratorInterface
      * List of authorized characters.
      * @var string $chars
      */
-    private string $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,-./:;<=>?@[]^_`{|}~';
+    private string $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#%&()*+,-./:;<=>?@[]^_`{|}~';
 
     /**
      * @inheritDoc
